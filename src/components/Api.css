@@ -1,0 +1,33 @@
+*{
+ background-color: aquamarine;
+}
+
+h1{
+  text-align: center;
+  color: green;
+}
+.card {
+  margin:15px;
+  height:150px;
+  width:230px;
+  justify-content: center;
+  border-width: thin;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  color:blue
+}
+
+.card-content{
+  font-size: 25px;
+font-weight: bold;
+  text-align: center;
+  color:blue;
+  background-color: white;
+}
+
+.card:hover{
+  border-color: black;
+  height:145px;
+  width:225px;
+}
